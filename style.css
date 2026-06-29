@@ -185,6 +185,10 @@ nav {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+    .hero-content{
+    font-size:clamp(1rem , 3vw , 2.1rem);
+    font-weight: 900;
+    }
   .nav-toggle {
     display: flex;
   }
