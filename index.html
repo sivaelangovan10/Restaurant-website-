@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROYAL FEAST</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+    />
+  </head>
+
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader-logo">
+        <h1>Royal Feast</h1>
+        <h2>Loading.....</h2>
+      </div>
+    </div>
+
+    <div class="progress" id="progress"></div>
+
+    <header id="header">
+      <nav>
+        <a href="#" class="logo">Royal Feast</a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="particles" id="particles"></div>
+      <div class="hero-bg" id="hero-bg"></div>
+      <div class="hero-content" id="hero-content">
+        <h1>
+          <span class="text-reveal">Where</span>
+          <span class="text-reveal"> Culinary</span>
+          <span class="text-reveal">Art</span>
+          <span class="text-reveal">Meets</span>
+          <span class="text-reveal">Passion</span>
+        </h1>
+
+        <p>An immersive dining experience that transcends ordinary</p>
+
+        <button
+          class="cta-btn"
+          onclick="document.getElementById('about').scrollIntoView()"
+        >
+          Discover our story
+        </button>
+      </div>
+    </section>
+
+    <section class="stats" id="">
+      <div class="stat-item">
+        <div class="stat-number" data-target="1000">0</div>
+        <div class="stat-lable">Happy customers</div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-number" data-target="500">0</div>
+        <div class="stat-lable">Signature dishes</div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-number" data-target="50">0</div>
+        <div class="stat-lable">Master chefs</div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-number" data-target="15">0</div>
+        <div class="stat-lable">Years excellence</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <h2 class="section-title">Royal Feast</h2>
+      <p class="section-subtitle">
+        Crafting unforgettable moments throug expectional cusine
+      </p>
+      <div class="about-grid">
+        <div class="feature-card">
+          <div class="icon">🧑🏼‍🍳</div>
+          <h3>michlein-starred chefs</h3>
+          <p>
+            World-reowned culinary artists bringing innovation to every plate
+            trained in paris , tokyo , new-york
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🍁</div>
+          <h3>Farm to table</h3>
+          <p>
+            organic ingredients sourced daily from local forms , we know our
+            farmers by name and visit their field weekly
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🍷</div>
+          <h3>curated wine selection</h3>
+          <p>
+            500+ bttles from reowned vineyards worldwide pairs each dish with
+            the perfect vintage
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2 class="gallery-title">Royal Gallery</h2>
+      <p class="g-sub">Each dish is amasterpiece , each plate a canvas</p>
+      <div class="gallery">
+        <div
+          class="gallery-item"
+          style="background: linear-gradient(135deg, #ff6b6b, #feca57)"
+        >
+          <img src="f1.jpg" alt="" width="300px" height="300px" />
+          <div class="gallery-content">
+            <h3>Saffron tuffle risotto</h3>
+            <p>
+              A timeless South Indian masterpiece crafted to golden perfection.
+              Served with signature chutneys and aromatic sambar for an
+              unforgettable experience.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item"
+          style="background: linear-gradient(135deg, #f093fb, #f5576c)"
+        >
+          <img src="f2.jpg" alt="" width="300px" height="300px" />
+          <div class="gallery-content">
+            <h3>Velvet chocolate lava</h3>
+            <p>
+              Rich molten chocolate paired with silky berry ice cream. A
+              luxurious dessert that melts in every bite.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item"
+          style="background: linear-gradient(135deg, #4facfe, #00f2fe)"
+        >
+          <img src="f3.jpg" alt="" width="300px" height="300px" />
+          <div class="gallery-content">
+            <h3>Royal dumb biriyani</h3>
+            <p>
+              Fragrant basmati rice layered with premium spices and tender meat.
+              Slow-cooked using authentic royal dum tradition.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item"
+          style="background: linear-gradient(135deg, #43e97b, #38f9d7)"
+        >
+          <img src="f4.jpg" alt="" width="300px" height="300px" />
+          <div class="gallery-content">
+            <h3>Maharaja Thali</h3>
+            <p>
+              An exquisite selection of flame-grilled kebabs and fresh naan.
+              Perfectly complemented with handcrafted dips and sauces
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item"
+          style="background: linear-gradient(135deg, #fa709a, #fee140)"
+        >
+          <img src="f5.jpg" alt="" width="300px" height="300px" />
+          <div class="gallery-content">
+            <h3>Signature kebab</h3>
+            <p>
+              An exquisite selection of flame-grilled kebabs and fresh naan.
+              Perfectly complemented with handcrafted dips and sauces
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="gallery-item"
+          style="background: linear-gradient(135deg, #30cfd0, #330867)"
+        >
+          <img src="f6.jpg" alt="" width="300px" height="300px" />
+          <div class="gallery-content">
+            <h3>Masal dosa</h3>
+            <p>
+              An exquisite selection of flame-grilled kebabs and fresh naan.
+              Perfectly complemented with handcrafted dips and sauces
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <h2>Customer Says</h2>
+
+      <div id="testimonialTrack" class="testimonial-track">
+        <div class="testimonial">
+          <div class="star"><p>⭐⭐⭐⭐⭐</p></div>
+          <p class="tl-text">
+            The most extrodinary dining experience of my life , every bite was
+            poetry
+          </p>
+          <p class="t-author">- James anderson , food critic</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="star"><p>⭐⭐⭐⭐⭐</p></div>
+          <p class="tl-text">
+            Royal feast redefined what i thought was possible with food
+            absolutely transcend
+          </p>
+          <p class="t-author">- Sara mitchel , celebrity chef</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="star"><p>⭐⭐⭐⭐⭐</p></div>
+          <p class="tl-text">
+            from ambience to service to cunize - perfection at every level ,
+            worth every penny
+          </p>
+          <p class="t-author">- Michael chaen , entrepeneur</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="star"><p>⭐⭐⭐⭐⭐</p></div>
+          <p class="tl-text">
+            perfection at every level , every bite was poetry
+          </p>
+          <p class="t-author">- Robert , chef master</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <h2 class="section-title">Meet our team</h2>
+      <p class="section-subtitle">
+        the artist behind the unforgettable experience
+      </p>
+      <div class="team">
+        <div class="team-card">
+          <div class="team-inner">
+            <div class="team-front">
+              <img src="c1.jpg" alt="" width="300px" height="330px" />
+              <h3>Chef Antony</h3>
+              <p>Head chef</p>
+            </div>
+            <div class="team-back">
+              <h2>Chef Antony</h2>
+              <p>
+                "Every ingredient tells a story, Every flame creates a memory.
+                Passion is our secret recipe, Excellence is served on every
+                plate."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-inner">
+            <div class="team-front">
+              <img src="c2.jpg" alt="" width="300px" height="330px" />
+              <h3>Chef Annie</h3>
+              <p>Pastry chef</p>
+            </div>
+            <div class="team-back">
+              <h2>Chef Annie</h2>
+              <p>
+                Crafted with precision, Seasoned with passion. Turning simple
+                flavors, Into unforgettable experiences."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-inner">
+            <div class="team-front">
+              <img src="c3.jpg" alt="" width="300px" height="330px" />
+              <h3>Server john</h3>
+              <p>Wine director</p>
+            </div>
+            <div class="team-back">
+              <h2>Server john</h2>
+              <p>
+                Great food isn't just cooked, It's carefully created. Every dish
+                reflects dedication, Every bite celebrates perfection."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <scetion class="section-timeline" id="experience">
+      <h2 class="section-title">Our Journey</h2>
+      <p class="section-subtitle">15+ years of experience</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2011–2013 | The Beginning</h3>
+            <p>
+              Founded with a passion for authentic flavors and warm hospitality.
+              Every dish was prepared with fresh ingredients, earning the trust
+              of our very first loyal customers.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2014–2016 | Growing Strong</h3>
+            <p>
+              Expanded our menu with signature specialties while enhancing the
+              dining experience. Our commitment to quality helped us become a
+              favorite destination in the community.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2017–2019 | Building a Reputation</h3>
+            <p>
+              Introduced modern interiors, exceptional service, and memorable
+              dining moments. Positive reviews and customer recommendations
+              strengthened our brand.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2020–2022 | Innovation & Excellence</h3>
+            <p>
+              Embraced online ordering, takeaway, and catering services while
+              maintaining the highest food quality. Continued to serve guests
+              with consistency and care.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2023–2026 | A Legacy of Taste</h3>
+            <p>
+              Celebrating 15 years of culinary excellence, we continue to blend
+              tradition with innovation. Every meal reflects our dedication to
+              quality, hospitality, and unforgettable dining experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </scetion>
+
+    <section class="section" id="contact">
+      <h3 class="section-title">Book your table</h3>
+
+      <div class="table-content">
+        <h3>Reserve your experience</h3>
+        <p>Tables are limited book your unfogettable journey today</p>
+        <button
+          class="cta-btn"
+          onclick="
+            alert(
+              'Reservation system : call +91 9876543210 and your table was booking',
+            )
+          "
+        >
+          Make reservation
+        </button>
+      </div>
+
+      
+      
+      <footer class="footer">
+        <div class="footer-container">
+         
+          <div class="footer-col">
+            <h3 class="footer-logo">Royal feast</h3>
+            <p class="footer-desc">
+              Where culinary art meets passion. Tiruvannamalai's finest dining
+              experience with authentic flavors & global cuisine since 2011.
+            </p>
+            
+
+          
+          
+          <div class="footer-col">
+            <h4>Opening Hours</h4>
+            <ul class="footer-hours">
+              <li><span>Mon - Thu:</span> 11:00 AM - 11:00 PM</li>
+              <li><span>Fri - Sat:</span> 11:00 AM - 12:00 AM</li>
+              <li><span>Sunday:</span> 12:00 PM - 11:00 PM</li>
+              <li class="highlight">
+                <span>Brunch:</span> Sat-Sun 11 AM - 3 PM
+              </li>
+            </ul>
+          </div>
+
+          
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="footer-contact">
+              <li>📍 Near bus stand , Tiruvannamalai - 606601</li>
+              <li>📞 +91 98765 43210</li>
+              <li> 📩 reservations@royalfeast.in</li>
+              <li> 🚗 Free Valet Parking Available</li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <div class="footer-bottom">
+          <p>© 2026 Royal Feast. All Rights Reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <span>|</span>
+            <a href="#">Terms & Conditions</a>
+            <span>|</span>
+            <a href="#">Refund Policy</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
