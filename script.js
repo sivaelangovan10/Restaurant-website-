@@ -127,7 +127,7 @@ document.querySelectorAll('.section, .feature-card, .gallery-item, .team-card, .
 // Counter Animation
 function animateCounter(el) {
   const target = parseInt(el.dataset.target);
-  const duration = 1500;
+  const duration = 400;
   const increment = target / (duration / 16);
   let current = 0;
   
