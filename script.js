@@ -113,7 +113,7 @@ const observer = new IntersectionObserver((entries) => {
       children.forEach((child, index) => {
         setTimeout(() => {
           child.classList.add('visible');
-        }, index * 120);
+        }, index * 20);
       });
     }
   });
