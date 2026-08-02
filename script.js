@@ -99,7 +99,7 @@ if (particlesContainer) {
 
 // Intersection Observer for Scroll Animations
 const observerOptions = {
-  threshold: 0.15,
+  threshold: 0.5,
   rootMargin: '0px 0px -100px 0px'
 };
 
